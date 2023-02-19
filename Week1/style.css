@@ -1,0 +1,52 @@
+.week {
+    width: 300px;
+    height: 300px;
+    border-radius:100%;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    background-color: green;
+    animation-name: couda;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+    
+  @keyframes couda {
+    0%{
+      background-color: green;
+      -webkit-transform: scale(0.2);
+      transform: scale(0.2);
+      border-radius:100%;
+    }
+    25%{
+      background-color: yellow;
+      -webkit-transform: scale(0.4);
+      transform: scale(0.4);
+      border-radius:75%;
+    }
+    50%  {
+      background-color: orange;
+      -webkit-transform: scale(0.6);
+      transform: scale(0.6);
+      border-radius:25%;
+  }
+    100% {
+      background-color: red;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      border-radius:0;
+    }
+  }
+    
+  .couda {
+  
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: couda 0.4s cubic-bezier(0.1, -0.6, 0.2, 0);;
+    animation: couda 0.4s cubic-bezier(0.1, -0.6, 0.2, 0);;
+  }
+    
+    

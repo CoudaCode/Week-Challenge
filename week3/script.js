@@ -5,9 +5,7 @@ let content = document.querySelector('.container')
 let addDiv = document.querySelectorAll('.container div')
 console.log(addDiv);
 let tabNbr = [1,2,3,4,5,6];
-
 let total = 0;
-
 let cpt = 1;
 console.log(addDiv[2])
 
@@ -21,7 +19,7 @@ if (cpt < 5) {
 }
 
 addDiv.forEach(elemt =>{
-    
+
     elemt.addEventListener('click',()=>{
        
         nbrAléa = Math.floor(Math.random() * ((tabNbr.length+1) - 1)) + 1;

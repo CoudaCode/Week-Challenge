@@ -10,43 +10,6 @@ body{
     background-color: 	#5e364a ;
     position: relative;
 }
-/* .container{
-    width: 40%;
-    height: 50%;
-    border: 1px solid black;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%,-50%); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-
-.de1{
-    width: 15%;
-    height: 12%;
-    border: 1px solid rgb(22, 9, 22);
-    text-align: center;
-    padding: 1rem;
-}
-#add,#resultat{
-    width: 7%;
-    height: 10%;
-    margin-bottom: 10px;
-    border: 3px solid black;
-    text-align: center;
-    
-} 
-.container div:nth-child(2),.container div:nth-child(3),.container div:nth-child(4),.container div:nth-child(5)
-{
-    display: none;
-} */
-
-
-
 .content{
     width: 50%;
     height: 60vh;

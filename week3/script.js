@@ -1,37 +1,33 @@
-let btn = document.querySelector('#add')
-let resultat = document.querySelector('#resultat')
-let content = document.querySelector('.container')
+let btnadd = document.querySelector('#add')
+let rslt = document.querySelector('#resultat')
+let container = document.querySelector('.container')
+let contdiv = document.querySelectorAll('.container div')
+let deNumber = [1,2,3,4,5,6];
+let count = 0;
+let compteur = 1;
 
-let addDiv = document.querySelectorAll('.container div')
-console.log(addDiv);
-let tabNbr = [1,2,3,4,5,6];
-let total = 0;
-let cpt = 1;
-
-if (cpt < 5) {
-    btn.addEventListener('click',()=>{
-            addDiv[cpt].style.display = 'block';
-            console.log(cpt)
-            cpt ++
+if (compteur < 5) {
+    btnadd.addEventListener('click',()=>{
+            contdiv[compteur].style.display = 'block';
+            console.log(compteur)
+            compteur ++
     })
    
 }
 
-addDiv.forEach(elemt =>{
+contdiv.forEach(deElemt =>{
 
-    elemt.addEventListener('click',()=>{
+    deElemt.addEventListener('click',()=>{
        
-        nbrAléa = Math.floor(Math.random() * ((tabNbr.length+1) - 1)) + 1;
-        elemt.textContent = nbrAléa
-        console.log('test1',nbrAléa)
-        total += nbrAléa;
-        console.log(total);
+        numAléa = Math.floor(Math.random() * ((deNumber.length+1) - 1)) + 1;
+        deElemt.textContent = numAléa
+        count += numAléa;
 
     })
 })
 
-resultat.addEventListener('click', ()=>{
-  alert(total)
+rslt.addEventListener('click', ()=>{
+  alert(count)
 })
 
 

@@ -7,7 +7,6 @@ console.log(addDiv);
 let tabNbr = [1,2,3,4,5,6];
 let total = 0;
 let cpt = 1;
-console.log(addDiv[2])
 
 if (cpt < 5) {
     btn.addEventListener('click',()=>{

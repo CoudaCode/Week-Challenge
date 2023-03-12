@@ -38,12 +38,13 @@ body{
     display: flex;
     margin-left: 1rem;
     margin-top: 1rem;
+    background: linear-gradient(45deg, #8d9eae,#d6e6fd);
     border-radius: 50px;
     box-shadow: -1px 1px 7px black;
 }
 .fls1{
     width: 50%;
-    background-color: #c1cfda;
+    
     border-top-left-radius:50px;
     border-bottom-left-radius:50px;
     display: grid;
@@ -73,7 +74,6 @@ body{
     width: 50%;
     border-top-right-radius:50px;
     border-bottom-right-radius:50px;
-    background-color: #c1cfda;
 } 
 
 .fls2 div:nth-child(1){

@@ -2,5 +2,14 @@
 Mes Week Challenge NaN
 
 
-Ajouter le nom du dossier apres le slash pour auvrir la Page :
-https://diaramadou.github.io/Week-Challenge/
+Lien De differentes Week-Challenge
+
+
+lien Week1: https://diaramadou.github.io/Week-Challenge/Week1 ;
+
+lien Week2: https://diaramadou.github.io/Week-Challenge/Week2 ;
+
+
+lien Week3: https://diaramadou.github.io/Week-Challenge/week3 ;
+
+lien Week4: https://diaramadou.github.io/Week-Challenge/Week4 ;

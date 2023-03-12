@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #262735;
 }
 
 .container{
@@ -36,6 +37,7 @@ body{
     width: 200px;
     height: 200px;
     display: flex;
+    border: 6px solid #9cb7d2;
     margin-left: 1rem;
     margin-top: 1rem;
     background: linear-gradient(45deg, #8d9eae,#d6e6fd);

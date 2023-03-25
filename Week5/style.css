@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Face 1 */
+.face1{
+    width: 20%;
+    height: 80vh;
+    border: 2px solid black;
+    display: grid;
+    /* background-color: lime; */
+}
+.face1 .box{
+    width: 80%;
+    height: 5vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.face1 .box .child1{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding: .5rem;
+}
+.face1 .box .child2{
+
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding: .5rem;
+    background-color: gray;
+}
+
+
+
+/* Face 2 */
+.face2{
+    width: 20%;
+    height: 80vh;
+    border: 2px solid black;
+    display: grid; 
+}
+.face2 .mox {
+    width: 30%;
+    height: 5vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.face2 .mox .enf2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: .5rem;
+    background-color: blue;
+
+    color: white;
+}
+
+
+
+
+/* Bien Jouer */
+.face3{
+    width: 60%;
+    height: 80vh;
+    border: 2px solid black;
+    background-color: blueviolet;
+}
+.face3 .bienJoue{
+    text-align: center;
+    display: none;
+}
+
+
+/* Les Boutonns */
+.face4{
+    width: 100%;
+    height: 20vh;
+    border: 2px solid black;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 19px;
+}
+.face4 .btn1{
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+    margin-right: 10px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.face4 .btn2{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(14, 98, 70);
+    text-align: center;
+    padding-top: 1.5rem;
+}

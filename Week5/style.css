@@ -1,4 +1,4 @@
-*{
+/* *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -23,12 +23,11 @@ body{
 }
 
 /* Face 1 */
-.face1{
+/* .face1{
     width: 20%;
     height: 80vh;
     border: 2px solid black;
     display: grid;
-    /* background-color: lime; */
 }
 .face1 .box{
     width: 80%;
@@ -55,17 +54,19 @@ body{
     padding: .5rem;
     background-color: gray;
 }
-
+ */
 
 
 /* Face 2 */
-.face2{
+/* .face2{
+    
     width: 20%;
     height: 80vh;
     border: 2px solid black;
     display: grid; 
 }
 .face2 .mox {
+    
     width: 30%;
     height: 5vh;
     margin: 0 auto;
@@ -75,21 +76,219 @@ body{
 
 
 .face2 .mox .enf2{
+    
     width: 100%;
     height: 100%;
     text-align: center;
     padding: .5rem;
     background-color: blue;
-
     color: white;
+    
 }
-
+ */
 
 
 
 /* Bien Jouer */
-.face3{
+/* .face3{
     width: 60%;
+    height: 80vh;
+    border: 2px solid black;
+    background-color: blueviolet;
+}
+.face3 .bienJoue{
+    text-align: center;
+    display: none;
+} */
+
+
+
+body{
+    background-color:#eee ;
+}
+.padre{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.container{
+    width: 22%;
+    height: 80vh;
+    border: 1px solid black;
+}
+.cont{
+    display: flex;
+    margin-top: 2%;
+}
+.ctn1{
+   
+    width: 150px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px;
+}
+
+.resu{
+    
+    background-color: gray;
+    width: 150px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px;
+    color: white;
+}
+.content{
+    width: 20%;
+    height: 82vh;
+    border: 1px solid black;
+}
+.ctr1{
+   
+    background-color: blue;
+    width: 150px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px;
+    color: white;
+    
+}
+.ctr2{
+    background-color: blue;
+    width: 150px;
+    overflow: hidden;
+    text-align: center;
+    top: 8%;
+    left: 550px;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px;
+    color: white;
+
+}
+.ctr3{
+    background-color: blue;
+    width: 150px;
+    overflow: hidden;
+    text-align: center;
+    top: 15%;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px;
+    color: white;
+}
+.ctr4{
+    background-color: blue;
+    width: 150px;
+    overflow: hidden;
+    text-align: center;
+    top: 23%;
+    left: 550px;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px;
+    color: white;
+}
+.ctr5{
+    background-color: blue;
+    width: 150px;
+    overflow: hidden;
+    text-align: center;
+    top: 31%;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px;
+    color: white;
+}
+.ctr6{
+    background-color: blue;
+    width: 150px;
+    overflow: hidden;
+    text-align: center;
+    top: 39%;
+    left: 550px;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px;
+    color: white;
+}
+.ctr7{
+    background-color: blue;
+    width: 150px;
+    
+    overflow: hidden;
+    text-align: center;
+    
+    top: 47%;
+    
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px;
+    color: white;
+}
+.ctr8{
+    background-color: blue;
+    width: 150px;
+    overflow: hidden;
+    text-align: center;
+    top: 55%;
+    left: 550px;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px;
+    color: white;
+}
+.ctr9{
+    background-color: blue;
+    width: 150px;
+    overflow: hidden;
+    text-align: center;
+    top: 63%;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px;
+    color: white;
+}
+.ctr10{
+    background-color: blue;
+    width: 150px;
+    overflow: hidden;
+    text-align: center;
+    top: 71%;
+    left: 550px;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px;
+    color: white;
+}
+.fa-arrows{
+    position: relative;
+    /* width: 100%; */
+    color: white;
+    /* padding: 15px 0; */
+
+}
+
+h1{
+    /* font-size: 30px; */
+    font-family: "Poppins", sans-serif;
+    /* padding: 0 10px; */
+    /* color: white; */
+}
+
+
+/* Gagne */
+
+.face3{
+    width: 35%;
     height: 80vh;
     border: 2px solid black;
     background-color: blueviolet;
@@ -101,7 +300,7 @@ body{
 
 
 /* Les Boutonns */
-.face4{
+ .face4{
     width: 100%;
     height: 20vh;
     border: 2px solid black;
@@ -119,6 +318,7 @@ body{
     border-top-left-radius: 50%;
     border-bottom-right-radius: 10px;
     text-align: center;
+    cursor: pointer;
     padding-top: 1.5rem;
 }
 .face4 .btn2{
@@ -127,4 +327,5 @@ body{
     background-color: rgb(14, 98, 70);
     text-align: center;
     padding-top: 1.5rem;
-}
+    cursor: pointer;
+} 
